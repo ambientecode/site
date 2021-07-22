@@ -54,7 +54,7 @@ body .contact .contacts-icons {
   height: 60%;
 }
 body .contact .contacts-icons img {
-  width: 40%;
+  width: 14%;
 }
 body .contact .contacts-data {
   display: flex;
@@ -84,6 +84,9 @@ body footer {
 body footer img {
   width: 46px;
   margin-bottom: 16px;
+}
+body footer img.instagram {
+  background: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
