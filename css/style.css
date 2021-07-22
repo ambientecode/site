@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #000000;
+  color: #ffffff;
+}
+body .title {
+  font-size: 51px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body .divider {
+  background-color: #3cddec;
+  height: 12px;
+  margin-bottom: 12px;
+}
+body .description {
+  font-size: 17px;
+}
+body section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+body .home {
+  padding-left: 40px;
+}
+body .home .description {
+  text-transform: uppercase;
+}
+body .about {
+  padding-right: 40px;
+  justify-content: space-between;
+}
+body .about header {
+  width: 440px;
+  text-align: right;
+}
+body .contact {
+  padding: 0 40px;
+  justify-content: space-between;
+}
+body .contact .contacts-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+body .contact .contacts-icons img {
+  width: 40%;
+}
+body .contact .contacts-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+body .contact .contacts-data header, body .contact .contacts-data .contact-details {
+  text-align: right;
+}
+body .contact .contacts-data .contact-details {
+  margin-top: 36px;
+}
+body .contact .contacts-data .contact-details .contact-type {
+  font-weight: bold;
+}
+body .contact .contacts-data .contact-details p {
+  font-size: 14px;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+body footer img {
+  width: 46px;
+  margin-bottom: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
