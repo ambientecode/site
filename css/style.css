@@ -5,6 +5,14 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+@keyframes zero-to-one-hundred {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
 body {
   height: 100vh;
   background: #000000;
@@ -19,6 +27,7 @@ body .divider {
   background-color: #3cddec;
   height: 12px;
   margin-bottom: 12px;
+  animation: zero-to-one-hundred 2s ease-in-out 0s 1;
 }
 body .description {
   font-size: 17px;
@@ -81,9 +90,13 @@ body footer {
   flex-direction: column;
   padding: 40px;
 }
-body footer img {
+body footer a img {
   width: 46px;
   margin-bottom: 16px;
+  transition: all 0.7s;
+}
+body footer a img:hover {
+  width: 70px;
 }
 body footer img.instagram {
   background: #ffffff;
